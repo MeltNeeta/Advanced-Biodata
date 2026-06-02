@@ -1,0 +1,26 @@
+:root{
+    --golden: #E8D1A7;
+    --olive: #9d9167;
+    --caramel: #84592b;
+    --spice: #743014;
+    --cocoa: #442d1c;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* navbar */
+
+.navbar {
+    background-color: var(--spice);
+    position: sticky;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
