@@ -96,37 +96,31 @@ h1 {
     box-shadow: 2px 2px 0px 6px var(--spice);
 }
 
-.basic {
+.basics {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-left: -20px;
+    align-self: center;
+}
+
+.basic ul {
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
-    margin-left: -20px;
-}
-
-.basic .basics {
-    margin-left: -20px;
-}
-
-.basic .logo {
-    margin-top: 5px;
-}
-
-.basic .logo ul li {
-    margin-top: 25px;
+    gap: 20px;
 }
 
 .basic ul li {
     list-style: none;
-    color: var(--golden);
-    margin-top: 30px;
     font-family: "Akt", sans-serif;
+    font-weight: 800;
     font-size: 20px;
-    font-weight: 400;
-    letter-spacing: -0.5px;
+    color: var(--golden);
 }
 
 .language {
     margin-top: 40px;
+    align-self: center;
 }
 .languages {
     font-family: "Barlow", sans-serif;
@@ -251,6 +245,13 @@ p {
     border-radius: 20px;
 }
 
+.separator-tech {
+    margin-top: -15px;
+    width: 2px;
+    height: 75px;
+    background-color: var(--caramel);
+}
+
 
 
 /* about me */
@@ -310,8 +311,18 @@ p {
     border-radius: 20px;
 }
 
+.my-interest {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-top: -35px;
+    justify-self: center;
+}
+
 .interest {
-    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
 }
 
 .interest img {
@@ -321,10 +332,19 @@ p {
     box-shadow: 1px 1px 0px 3px var(--spice);
 }
 
-.interest .letter {
+.interest p {
     margin-top: 10px;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    align-self: center;
 }
 
-.letter ul li {
-    font-family: "Amatic SC", sans-serif;
+/* History */
+
+.history {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--olive);
 }
+
