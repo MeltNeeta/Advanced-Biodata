@@ -444,6 +444,8 @@ p {
     gap: 20px;
     padding: 20px;
     scroll-snap-type: x mandatory;
+    background: linear-gradient(to right, #9d9167, #E8D1A7);
+    border-radius: 10px;
 }
 
 .projects::-webkit-scrollbar {
@@ -477,4 +479,79 @@ p {
 .project p {
     color: var(--white);
     padding: 10px;
+}
+
+.contact {
+    background-color: var(--black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--white);
+}
+
+.logo-footer h1 {
+    font-family: "Black Ops One", system-ui;
+    font-size: 50px;
+    padding: 40px;
+    color: var(--black);
+    -webkit-text-stroke: 0.5px var(--white);
+    background-color: var(--black);
+}
+
+.logo-footer p {
+    font-family: "League Gothic", sans-serif;
+    text-align: center;
+    font-size: 25px;
+    color: var(--white);
+}
+
+.sosmed {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sosmed .social {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color: var(--black);
+    background-color: var(--white);
+    padding: 10px 20px;
+    border-radius: 40px 20px;
+    align-self: center;
+    margin-top: 20px;
+}
+
+.socials {
+    margin-left: -40px;
+    padding: 10px;
+}
+
+.socials ul {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.socials ul li {
+    list-style: none;
+    color: var(--black);
+    font-size: 20px;
+    background-color: var(--white);
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.alamat p {
+    font-family: "Roboto", sans-serif;
+    padding: 20px;
+    color: var(--white);
+    word-spacing: 10px;
+}
+
+.copyright p {
+    font-family: "Roboto", sans-serif;
+    padding: 10px;
+    color: var(--white);
 }
