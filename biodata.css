@@ -1197,8 +1197,8 @@ p {
 
 .logo-footer h1 {
     font-family: "Black Ops One", system-ui;
-    font-size: 50px;
-    padding: 40px;
+    font-size: 30px;
+    padding: 30px;
     color: var(--black);
     -webkit-text-stroke: 0.5px var(--white);
     background-color: var(--black);
@@ -1207,7 +1207,7 @@ p {
 .logo-footer p {
     font-family: "League Gothic", sans-serif;
     text-align: center;
-    font-size: 25px;
+    font-size: 18px;
     color: var(--white);
     letter-spacing: 0.5px;
     word-spacing: 2px;
@@ -1222,13 +1222,13 @@ p {
 .sosmed .social {
     font-family: "Amatic SC", sans-serif;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 20px;
     color: var(--black);
     background-color: var(--white);
     padding: 10px 20px;
     border-radius: 40px 20px;
     align-self: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .socials {
@@ -1239,13 +1239,13 @@ p {
 .socials ul {
     display: flex;
     flex-direction: row;
-    gap: 60px;
+    gap: 24px;
 }
 
 .socials ul li {
     list-style: none;
     color: var(--black);
-    font-size: 20px;
+    font-size: 18px;
     background-color: var(--white);
     border-radius: 100%;
     padding: 10px;
@@ -1261,7 +1261,7 @@ p {
     font-family: "Roboto", sans-serif;
     padding: 20px;
     color: var(--white);
-    word-spacing: 10px;
+    word-spacing: 5px;
 }
 
 .copyright p {
