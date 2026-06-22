@@ -331,7 +331,7 @@ p {
 .palette .green {
     height: 50px;
     width: 50px;
-    background-color: rgb(74, 162, 62);
+    background-color: rgb(111, 123, 21);
     border-radius: 20px;
 }
 
@@ -468,7 +468,7 @@ p {
     display: flex;
     flex-direction: row;
     max-width: 1100px;
-    height: 450px;
+    height: 400px;
     overflow-y: auto;
     gap: 20px;
     padding: 20px;
@@ -676,14 +676,15 @@ h1 {
     display: flex;
     flex-direction: column;
     gap: 5px;
-    margin-top: -40px;
+    margin-top: -20px;
 }
 
 
 .home .left {
-    padding: 0px;
+    padding: 10px;
     display: flex;
     flex-direction: row;
+    gap: 20px;
 }
 
 .home .left img {
@@ -691,14 +692,14 @@ h1 {
     height: 240px;
     border-radius: 20px;
     box-shadow: 1px 1px 0px 3px var(--spice);
-    margin-left: -25px;
+    margin-left: 0px;
 }
 
 .basicss {
     display: flex;
     flex-direction: column;
-    padding-top: 25px;
-    margin-left: -40px;
+    padding-top: 0px;
+    margin-left: 0px;
 }
 
 .main-name h2 {
@@ -710,6 +711,7 @@ h1 {
     color: var(--olive);
     font-weight: 800;
     font-family: "League Gothic", sans-serif;
+    letter-spacing: 1px;
 }
 
 .basics {
@@ -785,76 +787,85 @@ h1 {
 }
 
 .home .right {
-    padding: 30px;
+    padding: 20px;
     background-color: var(--golden);
-    border-radius: 50px;
+    border-radius: 20px;
+    margin: 0px 5px 20px 5px;
 }
 
 h2 {
     font-family: "Amatic SC", sans-serif;
-    font-size: 70px;
+    font-size: 35px;
     color: var(--cocoa);
+    text-align: center;
+    font-weight: 800px;
 }
 
 .right h2 {
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 .separator-one {
-    height: 4px;
-    width: 700px;
+    height: 3px;
+    width: 100%;
     background-color: var(--olive);
-    margin-top: -40px;
+    margin-top: -20px;
 }
 
 h3 {
     font-family: "Roboto Slab", serif;
-    font-size: 40px;
+    font-size: 20px;
     color: var(--cocoa);
+    text-align: center;
 }
 
 .separator-two {
     height: 2px;
-    width: 500px;
+    width: 80%;
+    justify-self: center;
     background-color: var(--olive);
-    margin-top: -40px;
+    margin-top: -20px;
 }
 
 h4 {
     font-family: "Roboto Slab", serif;
-    font-size: 25px;
-    color: var(--cocoa);
-    text-decoration: underline;
+    font-size: 18px;
+    color: var(--golden);
+    background-color: var(--spice);
+    justify-self: flex-start;
+    padding: 2px 10px;
+    border-radius: 20px;
     margin-top: 35px;
+    text-decoration: none;
 }
 
 h5 {
     font-family: "Roboto Slab", serif;
-    font-size: 20px;
+    font-size: 15px;
     color: var(--caramel);
     margin-top: -10px;
 }
 
 p {
     font-family: "Roboto Slab", serif;
-    font-size: 15px;
-    color: var(--caramel);
-    margin-top: -30px;
+    font-size: 14px;
+    color: var(--cocoa);
+    margin-top: -20px;
 }
 
 .contain ul {
     display: flex;
-    flex-direction: row;
-    margin-top: -20px;
-    margin-left: -40px;
-    gap: 30px;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-left: -20px;
+    gap: 5px;
     font-family: "Roboto Slab", serif;
     font-size: 15px;
     color: var(--caramel);
 }
 
 .contain ul li {
-    list-style: none;
+    list-style: circle;
 }
 
 .row {
@@ -873,74 +884,116 @@ p {
 .separator-tech {
     margin-top: -15px;
     width: 2px;
-    height: 75px;
+    height: 150px;
     background-color: var(--caramel);
 }
 
+.software {
+    margin-top: -20px;
+}
+
+.software ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.software ul li {
+    list-style: none;
+    margin-left: -37px;
+}
+
+.software img {
+    transform: scale(0.5);
+}
 
 
 /* about me */
 
 .aboutme {
     background-color: var(--golden);
-    padding: 40px;
+    padding: 1px;
 }
 
 .about-me {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 10px;
+}
+
+.aboutme .left {
+    display: flex;
+    flex-direction: column;
 }
 
 .photo {
-    padding: 40px;
+    padding: 10px;
 }
 
 .aboutme .left img {
     border-radius: 40px;
-    box-shadow: 2px 2px 0px 6px var(--spice);
+    box-shadow: 1px 1px 0px 3px var(--spice);
+    width: 135px;
+    height: 240px;
 }
 
 .palette{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 20px;
+    gap: 10px;
+    padding: 10px;
 }
 
 .palette .black {
     height: 50px;
-    width: 50px;
+    width: 20px;
     background-color: black;
     border-radius: 20px;
 }
 
 .palette .red {
-    height: 50px;
-    width: 50px;
+    margin-top: 10px;
+    height: 60px;
+    width: 20px;
     background-color: rgb(166, 5, 5);
     border-radius: 20px;
 }
 
 .palette .green {
-    height: 50px;
-    width: 50px;
-    background-color: rgb(74, 162, 62);
+    margin-top: 20px;
+    height: 70px;
+    width: 20px;
+    background-color: rgb(111, 123, 21);
     border-radius: 20px;
 }
 
 .palette .orange {
-    height: 50px;
-    width: 50px;
+    margin-top: 30px;
+    height: 80px;
+    width: 20px;
     background-color: rgb(255, 130, 28);
+    border-radius: 20px;
+}
+
+.about-me .right p {
+    font-size: 12px;
+}
+
+
+.interests {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    max-width: 220px;
+    margin-top: -20px;
+    background: linear-gradient(to right, #E8D1A7, #fafaf0);
     border-radius: 20px;
 }
 
 .my-interest {
     display: flex;
     flex-direction: row;
-    gap: 25px;
-    margin-top: -35px;
+    gap: 5px;
+    margin-top: 0px;
     justify-self: center;
 }
 
@@ -951,10 +1004,10 @@ p {
 }
 
 .interest img {
-    height: 150px;
-    width: 150px;
-    border-radius: 30px;
-    box-shadow: 1px 1px 0px 3px var(--spice);
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 0px 1px var(--spice);
 }
 
 .interest p {
@@ -972,13 +1025,13 @@ p {
     display: flex;
     flex-direction: column;
     background-color: var(--olive);
-    padding: 40px;
+    padding: 10px;
 }
 
 .upper {
     display: flex;
     flex-direction: row;
-    gap: 25px;
+    gap: 15px;
     justify-content: center;
 }
 
@@ -986,22 +1039,38 @@ p {
     display: flex;
     flex-direction: column;
     background-color: var(--golden);
-    padding: 0px 25px;
-    border-radius: 25px;
+    padding: 0px 15px;
+    border-radius: 20px;
 }
 
 .school {
     margin-top: -25px;
+    text-align: center;
+}
+
+.organization {
+    margin-top: -25px;
+}
+
+.contain h4 {
+    font-size: 10px;
+}
+.contain h5 {
+    font-size: 10px;
+}
+.contain p {
+    font-size: 8px;
+    margin-top: 0px;
 }
 
 .balls {
-    display: flex;
+    display: none;
     flex-direction: column;
     gap: 40px;
     padding: 30px;
 }
 .ballss {
-    display: flex;
+    display: none;
     flex-direction: column-reverse;
     gap: 40px;
     padding: 30px;
@@ -1045,9 +1114,9 @@ p {
 .lower {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 20px;
     align-self: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .lower h3 {
@@ -1061,11 +1130,11 @@ p {
 .projects {
     display: flex;
     flex-direction: row;
-    max-width: 1100px;
-    height: 450px;
+    max-width: 350px;
+    height: 400px;
     overflow-y: auto;
     gap: 20px;
-    padding: 20px;
+    padding: 10px;
     scroll-snap-type: x mandatory;
     background: linear-gradient(to right, #9d9167, #E8D1A7);
     border-radius: 10px;
@@ -1082,7 +1151,7 @@ p {
 .project{
     background-color: var(--cocoa);
     max-height: 350px;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
     text-align: center;
 }
@@ -1096,24 +1165,26 @@ p {
 }
 
 .project img {
-    max-width: 400px;
-    max-height: 175px;
+    max-width: 430px;
+    max-height: 150px;
 }
 
 .project h4 {
     color: var(--golden);
     text-decoration: none;
-    font-size: 18px;
+    font-size: 14px;
+    justify-self: center;
 }
 
 .project h5 {
     color: var(--golden);
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .project p {
     color: var(--white);
     padding: 10px;
+    font-size: 10px;
 }
 
 .contact {
